@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Future Skills Initiative</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-brand">Future Skills Initiative</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" onclick="closeNav()">About</a></li>
+        <li><a href="#what-we-do" onclick="closeNav()">What We Do</a></li>
+        <li><a href="#impact" onclick="closeNav()">Impact</a></li>
+        <li><a href="#status" onclick="closeNav()">Status</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-inner">
+          <div class="hero-text">
+            <span class="hero-badge">Social Impact Project</span>
+            <h1>Future Skills <span>Initiative</span></h1>
+            <p class="hero-subtitle">Empowering students with practical digital skills for the future</p>
+            <p class="hero-desc">Helping students learn technology, digital tools, and AI to improve their opportunities.</p>
+            <button class="btn-coming-soon" aria-disabled="true">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              Coming Soon
+            </button>
+          </div>
+          <div class="hero-graphic">
+            <div class="hero-visual">
+              <img
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80"
+                alt="Students collaborating in a digital learning session"
+                class="hero-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-img-block fade-in">
+            <img
+              src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80"
+              alt="Young students learning digital skills together on laptops"
+              class="about-img"
+            />
+          </div>
+          <div class="about-content fade-in">
+            <h2>About the Initiative</h2>
+            <p>The Future Skills Initiative aims to support high school and early university students by providing accessible, hands-on technology education. We believe every student deserves the chance to build the digital literacy needed to thrive in today's world.</p>
+            <p>Many students lack guidance and resources when it comes to learning modern digital skills. There is often a gap between what schools teach and what the job market demands. This initiative exists to help bridge that gap through practical, approachable learning experiences.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What We Do -->
+    <section class="section what-we-do" id="what-we-do">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>What We Do</h2>
+          <p>Focused on practical skills that prepare students for a technology-driven world.</p>
+        </div>
+        <div class="cards-grid">
+          <div class="card fade-in">
+            <div class="card-icon" aria-hidden="true">&#129302;</div>
+            <h3>AI Concepts</h3>
+            <p>Teach basic artificial intelligence concepts in a way that is easy to understand and relevant to everyday life.</p>
+          </div>
+          <div class="card fade-in">
+            <div class="card-icon" aria-hidden="true">&#128187;</div>
+            <h3>Digital Skills</h3>
+            <p>Share practical digital skills — from productivity tools to basic coding — that students can apply immediately.</p>
+          </div>
+          <div class="card fade-in">
+            <div class="card-icon" aria-hidden="true">&#127760;</div>
+            <h3>Learning Sessions</h3>
+            <p>Organize online and in-person learning sessions that are interactive, inclusive, and beginner-friendly.</p>
+          </div>
+          <div class="card fade-in">
+            <div class="card-icon" aria-hidden="true">&#128218;</div>
+            <h3>Educational Content</h3>
+            <p>Create simple, clear educational content designed for wider reach and long-term value.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact Vision -->
+    <section class="section impact" id="impact">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>Impact Vision</h2>
+          <p>Our goals for the initiative's first phase.</p>
+        </div>
+        <div class="impact-grid">
+          <div class="impact-card fade-in">
+            <div class="number">80+</div>
+            <h3>Students Reached</h3>
+            <p>Provide meaningful learning experiences to at least 80 students in our first cohort.</p>
+          </div>
+          <div class="impact-card fade-in">
+            <div class="number">&#127908;</div>
+            <h3>Learning Community</h3>
+            <p>Build a supportive community where students help each other grow and learn together.</p>
+          </div>
+          <div class="impact-card fade-in">
+            <div class="number">&#9889;</div>
+            <h3>Tech Education Access</h3>
+            <p>Improve access to quality technology education for underserved students.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Status Banner -->
+    <section class="status-banner" id="status">
+      <div class="container fade-in">
+        <span class="badge">&#128679; Project in Development</span>
+        <h2>We're Building Something Meaningful</h2>
+        <p>This initiative is currently being developed as part of the <strong>Millennium Fellowship 2026</strong>.</p>
+        <p>Full launch coming soon.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-brand">Future Skills Initiative</p>
+      <p>More updates coming soon</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
